@@ -1,0 +1,18 @@
+*foldcomments.txt*        Plugin for folding all comments in a file
+
+Author: Xavier Nayrac
+
+|foldcomments-introduction| Introduction and Feature Summary
+|foldcomments-license| License
+
+INTRODUCTION               *foldcomments-introduction* *foldcomments*
+
+When a source file is full of commentaries, this could be a pain to follow
+the code or just studying it. Here's come fold-comments.
+
+<
+                                                *foldcomments-license*
+Copyright 2013, Xavier Nayrac. Distributed under the same terms as Vim itself.
+See |license|.
+
+ vim:tw=78:ts=8:ft=help:norl:
