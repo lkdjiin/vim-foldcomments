@@ -1,6 +1,6 @@
 " foldcomments.vim - Fold all comments in a file.
 " Author: Xavier Nayrac
-" Version: 0.1.0
+" Version: 0.2.0
 
 if exists('g:loaded_foldcomments') || &cp || v:version < 700
   finish

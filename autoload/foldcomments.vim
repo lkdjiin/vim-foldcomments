@@ -41,7 +41,12 @@ function s:init_by_language()
     let s:multi_comment_start = '^\s*/\*'
     let s:multi_comment_end = '\*/'
     let s:allow_multi_comment = 1
-  elseif &filetype == 'logo' || &filetype == 'racket' || &filetype == 'scheme'
+  elseif &filetype == 'racket'
+    let s:single_comment = '^\s*;'
+    let s:multi_comment_start = '^\s*#|'
+    let s:multi_comment_end = '|#'
+    let s:allow_multi_comment = 1
+  elseif &filetype == 'logo' || &filetype == 'scheme'
     let s:single_comment = '^\s*;'
   elseif &filetype == 'vim'
     let s:single_comment = '^\s*"'
