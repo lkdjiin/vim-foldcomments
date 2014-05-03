@@ -24,7 +24,7 @@ on the F5 key:
 
     map<F5> FoldComments<Enter>
 
-> There is no command to delete the folds. But you could do that with ggVGzd.
+> There is no command to delete the folds. But you could do that with zE.
 
 Caveats
 -------
