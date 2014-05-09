@@ -102,7 +102,7 @@ endfunction
 " line - The String line to mark.
 " num  - Line number in the file.
 function s:add_start_marker(line, num)
-  call setline(a:num, a:line.' '.s:marker_on)
+  call setline(a:num, a:line.s:marker_on)
 endfunction
 
 " Add the end folding marker to a line.
@@ -110,7 +110,7 @@ endfunction
 " line - The String line to mark.
 " num  - Line number in the file.
 function s:add_end_marker(line, num)
-  call setline(a:num, a:line.' '.s:marker_off)
+  call setline(a:num, a:line.s:marker_off)
 endfunction
 
 " Mark the line as the begining of a multiple comment group folding. 
