@@ -1,0 +1,31 @@
+Given (a ruby file):
+  class Foo
+    
+    # A
+    # Comment
+    # Over
+    # Some
+    # Lines
+    def foo
+      puts 'foo'
+    end
+  end
+
+Execute (set filetype):
+  :set filetype=ruby
+
+Do ():
+  :FoldComments\<Enter>
+
+Expect:
+  class Foo
+    
+    # A# {{{
+    # Comment
+    # Over
+    # Some
+    # Lines# }}}
+    def foo
+      puts 'foo'
+    end
+  end
