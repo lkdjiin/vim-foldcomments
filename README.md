@@ -7,12 +7,14 @@ with a lots of comments.
 Installation
 ------------
 
-If you don't have a preferred installation method, I recommend
-installing [pathogen.vim](https://github.com/tpope/vim-pathogen)
-from Tim Pope, and then simply copy and paste:
+With [pathogen.vim](https://github.com/tpope/vim-pathogen)
 
     cd ~/.vim/bundle
     git clone git://github.com/lkdjiin/vim-foldcomments.git
+
+With [vundle](https://github.com/gmarik/Vundle.vim)
+
+    Bundle 'git://github.com/lkdjiin/vim-foldcomments.git'
 
 Usage
 -----
@@ -45,7 +47,7 @@ Contributing
 License
 --------------------------
 
-Copyright 2013, Xavier Nayrac. Distributed under the same terms as
+Copyright 2013, 2014 Xavier Nayrac. Distributed under the same terms as
 Vim itself. See `:help license`.
 
 Questions and/or Comments
