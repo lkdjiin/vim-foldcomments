@@ -1,8 +1,15 @@
 foldcomments.vim
 ================
 
-Folds all commentaries. This could be helpful when studying a file
-with a lots of comments.
+Folds all commentaries of a source file.
+
+Without:
+
+![Before](before.png)
+
+With:
+
+![After](after.png)
 
 Installation
 ------------
@@ -21,12 +28,15 @@ Usage
 
     :FoldComments
 
-Or you could map the command `FoldComments` in your .vimrc, for example
+Or, better, you could map the command `FoldComments` in your .vimrc, for example
 on the F5 key:
 
-    map<F5> FoldComments<Enter>
+    map<F5> :FoldComments<Enter>
 
-> There is no command to delete the folds. But you could do that with zE.
+To unfold, use `zE`, or map it like this:
+
+    map<F6> zE
+
 
 Caveats
 -------
